@@ -5,32 +5,42 @@ TEXT_RESET='\e[0m'
 TEXT_YELLOW='\e[0;33m'
 TEXT_RED='\e[1;31m'
 
-echo 'Starting the updates: steps 1-5'
+echo -e $TEXT_YELLOW
+echo -e 'Starting the updates: steps 1-5 \n'
 echo 'Step 1'
+echo -e $TEXT_RESET
 sudo apt update
 echo -e $TEXT_YELLOW
 echo 'Step 1 - update completed'
 echo -e $TEXT_RESET
 
+echo -e $TEXT_YELLOW
 echo 'Step 2'
+echo -e $TEXT_RESET
 sudo apt full-upgrade -y
 echo -e $TEXT_YELLOW
 echo 'Step 2 - full system upgrade completed'
 echo -e $TEXT_RESET
 
+echo -e $TEXT_YELLOW
 echo 'Step 3'
+echo -e $TEXT_RESET
 sudo apt autoremove -y
 echo -e $TEXT_YELLOW
 echo 'Step 3 - autoremove completed'
 echo -e $TEXT_RESET
 
+echo -e $TEXT_YELLOW
 echo 'Step 4'
+echo -e $TEXT_RESET
 sudo apt autoclean
 echo -e $TEXT_YELLOW
 echo 'Step 4 - cleaning completed'
 echo -e $TEXT_RESET
 
+echo -e $TEXT_YELLOW
 echo 'Step 5'
+echo -e $TEXT_RESET
 sudo updatedb
 echo -e $TEXT_YELLOW
 echo 'Step 5 - file database updated'
