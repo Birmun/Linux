@@ -1,4 +1,4 @@
-# To use the script, simply download it, and make it executeable.
+# To use the script, simply download it, and make it executable.
 
 chmod +x updater.sh
 
