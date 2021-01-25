@@ -1,6 +1,6 @@
-# Update your linux with: updater.sh - 
+# Update your linux with: updater.sh
 
-To use the script, simply download it, and make it executable.
+To use the script, simply download it and make it executable.
 
 `chmod +x updater.sh`
 
@@ -10,9 +10,9 @@ Tu run it:
 
 ------------------------------------------------
 
-# IP & VPN check - ip2.sh.
+# IP & VPN check - ip2.sh
  
-To use the script, simply download it, and make it executable.
+To use the script, simply download it and make it executable.
 
 `chmod +x ip2.sh`
  
