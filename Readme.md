@@ -23,6 +23,6 @@ To use the script, simply download it and make it executable.
 -----------------------------------------------
 
 You can also use it with genmon plugin for XFCE 
-(suggested use of smaller font for otpimal view, depending on your display)
+(suggested use of smaller font for optimal view, depending on your display)
 
 Enjoy.
